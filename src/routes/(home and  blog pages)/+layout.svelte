@@ -14,7 +14,7 @@
         border="border-4 border-surface-300-600-token hover:!border-red-200"
         cursor="cursor-pointer"/>
       </svelte:fragment>
-	<section class="text-3xl">My Website Title.</section>
+	<section class="text-3xl"> Website Title.</section>
   <svelte:fragment slot="trail"> 
   <nav class="flex list-nav list-none">
 		<li><a href="/">Home</a></li>
@@ -41,6 +41,6 @@
 
 	<!-- (pageFooter) -->
 	<svelte:fragment slot="footer">
-    &copy; Jessica Nelson 2023
+   <p class="p-2">&copy; Jessica Nelson 2023</p>
   </svelte:fragment>
 </AppShell>
