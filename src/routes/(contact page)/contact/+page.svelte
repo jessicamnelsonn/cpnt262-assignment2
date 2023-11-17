@@ -11,5 +11,5 @@
 </label>
 
 <section class="flex justify-center">
-  <button type="button" class="btn variant-filled bg-primary-500 text-secondary-100">BUTTON</button>
+  <button type="button" class="btn variant-filled bg-primary-500 text-secondary-100 border-4 border-surface-300-600-token hover:!border-red-100">BUTTON</button>
 </section>

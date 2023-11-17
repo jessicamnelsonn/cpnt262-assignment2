@@ -4,7 +4,17 @@
 </script>
 
 <AppShell>
+  <svelte:fragment slot="sidebarLeft">
+    <nav class="list-nav p-6 variant-filled">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="../contact">Contact</a></li>
+      </ul>
+    </nav>
+  </svelte:fragment>
   <AppBar>
+
     <svelte:fragment slot="lead">
       <a class="btn btn-sm variant-ghost-surface" href="https://www.facebook.com/login/" target="_blank" rel="noreferrer">
         Facebook
@@ -16,20 +26,11 @@
         Instagram
       </a>
     </svelte:fragment>
+
     <svelte:fragment slot="trail">
       <section class="text-4xl">Contact Us</section>
     </svelte:fragment>
   </AppBar>
-
-  <svelte:fragment slot="sidebarLeft">
-    <nav class="list-nav p-2">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="../contact">Contact</a></li>
-      </ul>
-    </nav>
-  </svelte:fragment>
 
   <!-- Router Slot -->
   <slot />
